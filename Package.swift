@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "MeCab", targets: ["MeCab"])
     ],
     dependencies: [
-        .package(name: "CMeCab", url: CMeCabURL, from: "1.0.0"),
+        .package(name: "CMeCab", url: CMeCabURL, .branch("master")),
     ],
     targets: [
         .target(name: "MeCab"),
