@@ -1,6 +1,5 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.2
 import PackageDescription
-
 
 #if os(macOS)
 	let CMeCabURL = "https://github.com/novi/CMeCab-OSX.git"
