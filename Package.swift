@@ -1,7 +1,6 @@
 // swift-tools-version:5.2
 import PackageDescription
 
-
 #if os(macOS)
 	let CMeCabURL = "https://github.com/k3zi/CMeCab-OSX.git"
 #else
@@ -14,7 +13,7 @@ let package = Package(
         .library(name: "MeCab", targets: ["MeCab"])
     ],
     dependencies: [
-        .package(name: "CMeCab", url: CMeCabURL, .branch("master")),
+        .package(url: CMeCabURL, .branch("master")),
     ],
     targets: [
         .target(name: "MeCab"),
