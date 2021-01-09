@@ -3,9 +3,9 @@ import PackageDescription
 
 
 #if os(macOS)
-	let CMeCabURL = "https://github.com/novi/CMeCab-OSX.git"
+	let CMeCabURL = "https://github.com/k3zi/CMeCab-OSX.git"
 #else
-	let CMeCabURL = "https://github.com/novi/CMeCab.git"
+	let CMeCabURL = "https://github.com/k3zi/CMeCab.git"
 #endif
 
 let package = Package(
